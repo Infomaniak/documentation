@@ -1,0 +1,4 @@
+baseURL = 'https://docs.infomaniak.com/'
+languageCode = 'fr-CH'
+title = 'Infomaniak documentation'
+theme = 'ananke'
