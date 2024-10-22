@@ -1,4 +1,4 @@
-baseURL = 'https://docs.infomaniak.com/'
+baseURL = 'https://docs.preprod.dev.infomaniak.ch/'
 languageCode = 'fr-CH'
 title = 'Infomaniak documentation'
 theme = 'ananke'
