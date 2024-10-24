@@ -1,0 +1,64 @@
+baseURL: https://docs.preprod.dev.infomaniak.ch/
+languageCode: fr-ch
+title: Infomaniak documentation 
+
+theme: hextra
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo-k.svg
+      dark: images/logo-k.svg
+      link: /
+      width: 40
+      height: 20
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  page:
+    width: wide
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+  editURL:
+    enable: true
+    base: "https://github.com/Infomaniak/documentation/edit/main/content"
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/imfing/hextra"
+      params:
+        icon: github
+    - name: Twitter
+      weight: 6
+      url: "https://twitter.com/"
+      params:
+        icon: x-twitter
